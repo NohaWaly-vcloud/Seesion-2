@@ -1,7 +1,8 @@
 language: php
 
 before_script:
- - composer update
+ - composer self-update
+ - composer install --no-interaction
 
 script:
   - php artisan test
