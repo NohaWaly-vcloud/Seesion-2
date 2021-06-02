@@ -5,3 +5,6 @@ before_script:
 
 script:
   - php artisan test
+
+notifications:
+ email: noha.waly@vcloud.com
